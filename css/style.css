@@ -1,0 +1,73 @@
+#header{
+ display:flex;
+  
+flex-wrap: nowrap;
+  width:100%;
+   
+}
+#nav-bar{
+ width: 100%;
+ background-color: grey;
+  overflow: auto;
+  box-shadow:0px 10px 10px grey;
+ }
+#nav-bar a {
+  /*menu floats to left;*/
+  float: left;
+ padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight:bold;
+}
+#nav-bar a:hover {
+ background-color: orange;
+  color: black;
+  
+}
+.container{
+  margin-top:50px; ;
+  margin-left:50px;
+  margin-bottom: 15%;
+ width:100%; 
+}
+
+
+#form-email{
+  width:50% ;
+ font-size: 20px;
+  color: red;
+   margin: auto;
+  padding: 10px;
+}
+
+h3{ 
+  color: orange;
+  font-weight:bold ;
+}
+section{
+  margin-bottom: 30px;
+  font-size: 18px;
+  margin:auto;
+  width:50%;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: grey;
+   color: white;
+   text-align: center;
+}
+@media screen and (min-width: 400px) {
+  body {
+    background-color: Snowwhite;
+  }
+}
+
+
+
+
+
